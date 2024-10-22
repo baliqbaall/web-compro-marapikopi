@@ -1,0 +1,171 @@
+.slider h3,
+.slider h5,
+.clients h3 {
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-fixed .brand-logo {
+	font-family: "arial", sans-serif;
+	font-size: 26px;
+}
+
+.page-footer h5 {
+	font-family: "arial", sans-serif;
+}
+
+.about a {
+	font-family: "arial", sans-serif;
+	font-size: 12px;
+	margin-left: 11px;
+	border-radius: 8px;
+}
+
+.menu a {
+	font-family: "arial", sans-serif;
+	font-size: 12px;
+	margin-top: 20px;
+	border-radius: 8px;
+}
+
+.menu p {
+	margin-top: -8px;
+}
+
+.menu h5 {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+u {
+	text-decoration: none;
+	border-bottom: 1.5px solid grey;
+	margin-bottom: -1px;
+}
+
+.coroastery a {
+	font-family: "arial", sans-serif;
+	font-size: 12px;
+	margin-top: 20px;
+	border-radius: 8px;
+}
+
+
+.card-panel {
+	border-radius: 8px;
+}
+
+.responsive-img {
+	margin-top: 20px;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.parallax-container {
+	height: 30%;
+}
+
+.parallax {
+	height: 250px;
+	background-image: url('../img/7.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -100px;
+	opacity: 0.8;
+}
+
+.clients img {
+	max-width: 210px;
+	filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+	transition: filter 0.2s ease;
+}
+
+.clients img:hover {
+	filter: drop-shadow(1.5px 1.5px 1.5px rgba(0, 0, 0, 1));
+}
+
+section {
+	padding: 20px 0;
+}
+
+.page-footer img {
+	max-width: 50px;
+	display: flex;
+	justify-content: left;
+	align-content: left;
+}
+
+.page-footer p {
+	margin-top: -10px;
+}
+
+.page-footer h5 {
+	margin-top: -10px;
+}
+
+.footer-col h6 {
+	margin: 10px;
+}
+
+.footer-col .social-links a {
+	display: inline-block;
+	width: 30px;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 0 5px 5px 0;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.3s ease;
+}
+
+.footer-col .social-links a:hover {
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.footer-copyright h6 {
+	font-size: 13px;
+}
+
+.contact a {
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	padding-bottom: -10px;
+	border-radius: 8px;
+	text-transform: lowercase;
+	position: relative;
+	color: #ffff;
+	/* Warna link */
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.contact a::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 0;
+	height: 1px;
+	background-color: #ffff;
+	/* Warna underline */
+	transition: width 0.3s ease;
+}
+
+.contact a:hover {
+	color: #ffff;
+	/* Warna link saat hover */
+}
+
+.contact a:hover::after {
+	width: 100%;
+}
+
+.contactus a {
+	font-family: "arial", sans-serif;
+	font-size: 14px;
+	padding-bottom: -10px;
+	border-radius: 8px;
+	text-transform: lowercase;
+
+}
